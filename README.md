@@ -4,7 +4,6 @@
 
 ### User Story
 
-User Story
 As a user, I want to type in a meat, vegetable, and fruit to generate a random recipe, so that I can save my time or try new recipes.
 As a user, I want to generate a random cocktail or beer, so that I can save my time in deciding which drink I want.
 
@@ -30,14 +29,17 @@ THEN I am presented with my most recent cocktail and beer choice
 ## Issues identified and corrected
 
 - MB
-- JG
+
+Error when requesting to retrieve the last known cocktail from the local storage
+- During the build of the webpage, the saved value for the cocktail data from the API was saving as [OBJECt, object] which on start-up, did not represent the local storage data correctly. After searching on a fix, I rememebered that I needed to JSON stringify + parse my data so that it could be read correctly by the JavaScript. 
+- 
 - AA
 - JL
 
 ## Future work
 
 Clicking on the cocktail image sends you to the page showing you how to create the cocktail and what ingredients you will need:
- - Looking into the API for the cocktail section, There is some additional data on what ingredients he
+ - Looking into the API for the cocktail section, There is some additional data on what ingredients are used in the cocktail and how to make the drink. For future work, we may be able to add a link to the cocktail image to take the user to this additional information on another HTML page.
 
 - ???
 - ???
@@ -54,7 +56,7 @@ https://gibbo3433.github.io/Project-1/
 
 ## Authors and acknowledgment
 
-Jordan Gibbs, Mikaaeel Boksh, Ahmed Amar, Jihong LU
+Jordan Gibbs, Jihong Lu, Mikaaeel Boksh, Ahmed Amar,
 
 ## License
 
