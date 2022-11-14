@@ -36,7 +36,9 @@ THEN I am presented with my most recent cocktail and beer choice
 
 ## Future work
 
-- Clicking on the cocktail image sends you to the page showing you how to create the cocktail and what ingredients you will need
+Clicking on the cocktail image sends you to the page showing you how to create the cocktail and what ingredients you will need:
+ - Looking into the API for the cocktail section, There is some additional data on what ingredients he
+
 - ???
 - ???
 
