@@ -15,7 +15,7 @@ WHEN I enter a meat and/or vegetable and/or fruit
 THEN I am presented with up to six different recipie choices
 
 WHEN I click on the chosen recipe
-THEN I am taken to a page showing further ingrediants needed to the ones I selected and are given instructions
+THEN I am taken to a page showing further ingredients needed to the ones I selected and are given instructions
 
 WHEN I click on the random beer button
 THEN I am presented with a random beer choice that could compliment my recipe choice
@@ -32,9 +32,9 @@ THEN I am presented with my most recent cocktail and beer choice
 
 Error when requesting to retrieve the last known cocktail from the local storage
 - During the build of the webpage, the saved value for the cocktail data from the API was saving as [OBJECt, object] which on start-up, did not represent the local storage data correctly. After searching on a fix, I rememebered that I needed to JSON stringify + parse my data so that it could be read correctly by the JavaScript. 
-- 
+
 - AA
-- JL
+- JL 
 
 ## Future work
 
