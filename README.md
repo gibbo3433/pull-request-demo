@@ -6,13 +6,13 @@
 
   ##Table of Contents
 
-  * [Title](#title)
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+   [Title](#title)
+  [Description](#description)
+   [Installation](#installation)
+   [Usage](#usage)
+   [Contributing](#contributing)
+   [Tests](#tests)
+   [Questions](#questions)
 
   ## Installation
 
